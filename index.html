@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DDA 2003/MDS 6112 Assignment 1</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Sortable Stacked Bar Chart</h1>
+
+    <div class="container">
+        <div class="col-right">
+            <div class="control-bar">
+                <!-- define a drop list with three different visual options -->
+                <!-- To DO -->
+                <form action="#">
+                    <label for="displaytype">Display Type</label>
+                    <select id="display-type-selection">
+                        <option value="Bar">bar chart</option>
+                        <option value="Stacked">stacked bar chart</option>
+                        <option value="Sorted">sorted stacked bar chart</option>
+                    </select>
+            </div>
+            <svg id="bar-chart"></svg>
+        </div>
+    </div>
+    
+    <script src="js/d3.v6.min.js"></script>
+    <script src="js/stackedBarChart_copy.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
